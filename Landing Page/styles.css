@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Monsterat', sans-serif;
+    color: #ffffff;
+}
+
+.header {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+nav {
+    margin-top: 80px;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    font-size: 2rem;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 10px;
+}
+
+.nav-bar li {
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+}
+
+.nav-bar-element.home {
+    padding-left: 20px;
+}
+
+.nav-bar-element.menu {
+    padding-right: 0;
+    padding-right: 20px;
+}
+
+/* .hero {
+    background-image: url(./resources/hero.png);
+    background-color: #333;
+    background-blend-mode: screen; 
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .hero-dots {
+    position: absolute;
+    top: 10px;
+    left: 0;
+} */
+
+/* .hero-dots img {
+    mix-blend-mode: overlay;
+} */
+
+.hero {
+    background-image: url(./resources/main-frame.png),url(./resources/dots.png),url(./resources/hero.png);
+    background-repeat: no-repeat ,no-repeat, no-repeat;
+    background-position:  top 50% left 21%, center, top left;
+    background-attachment: fixed, fixed, fixed;
+    background-size: 700px 800px, cover, cover;
+    background-blend-mode: normal, overlay, normal;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hero-inner {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    text-align: -webkit-center;
+    width: 700px;
+}
+
+.hero-inner h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-inner p {
+    font-size: 1.5rem;
+    width: 500px;
+    letter-spacing: .2rem;
+}
+
+.hero-inner form {
+    margin-top: 70px;
+}
+
+.hero-inner input {
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+}
+
+.hero-inner button {
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    border: 5px solid #ecfefc;
+    box-shadow: 0 0px 20px #365b5e;
+    padding: 10px 30px;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+}
+
+.footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.footer .social-media {
+    display: flex;
+    list-style: none;
+}
+
+.social-media li {
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.phone-number {
+    padding-right: 40px;
+}

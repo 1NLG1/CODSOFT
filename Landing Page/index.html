@@ -5,14 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1aacc9b842.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <header></header>
-    <nav></nav>
-    <main></main>
-    <section></section>
-    <section></section>
-    <footer></footer>
+    <header class="header">
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-bar-element home"><a href="#">Home</a></li>
+                <li class="nav-bar-element about"><a href="#">About</a></li>
+                <li class="nav-bar-element menu"><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="./resources/logo.png" width="250" height="250" alt="logo image">
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <!-- <div class="hero-dots">
+                <img src="./resources/dots.png" width="1920" height="900" alt="dots">
+            </div> -->
+            <div class="hero-inner">
+                <h1>MOVE IT OR LOSE IT</h1>
+                <p>
+                    Lorem ipsum dolor sit ame, consectetur adipiscing elit,
+                    sed do eget lorem eiusmod tempor. 
+                </p>
+                <form action="mailto:neaglucian95@yahoo.com" method="post" enctype="text/plain">
+                    <input type="email" placeholder="Enter your email....">
+                    <button type="submit">Join Now</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="social-media">
+            <li class="social-media-element">
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </li>
+            <li class="social-media-element">
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-media-element">
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-media-element">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+        <a class="website" href="#">www.gym.com</a>
+        <a class="phone-number" href="tel:0755457738">0755457738</a>
+    </footer>
+    
+    
 </body>
 </html>
+
+
