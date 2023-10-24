@@ -1,0 +1,269 @@
+/* css reset styles */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    color: #2a2a2c;
+}
+
+/* /////// font awesome icons */
+
+.fa-linkedin {
+    color: #0A66C2;
+}
+
+.fa-square-facebook {
+    color: #1877F2;
+}
+
+.fa-square-instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.fa-square-twitter {
+    color: #26a7de;
+}
+
+.fa-square-whatsapp {
+    color: #075E54;
+}
+
+/* /////// HEADER */
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.logo-figure {
+    display: flex;
+    align-items: center;
+}
+
+.logo-figure figcaption {
+    padding-left: 10px;
+}
+
+.logo-name {
+    font-weight: bold;
+}
+
+.logo-profession {
+    font-weight: lighter;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-bar li {
+    list-style: none;
+    padding-right: 45px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    border-bottom: 1px solid #333;
+}
+
+.nav-bar li button {
+    font-weight: inherit;
+    border: 2px solid #333;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.nav-bar li button:hover {
+    background-color: #2a2a2c;
+}
+
+/* //////// MAIN */
+
+.main {
+    margin-left: 100px;
+    margin-right: 132px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    line-height: 1.4;
+    box-shadow: 0 2px 2px -2px gray;
+    margin-bottom: 40px;
+}
+
+.personal-info {
+    text-align: center;
+    /* align-self: center; */
+}
+
+.about h1 {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.about-name {
+    font-weight: bold;
+}
+
+.about-profession {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4f4f51;
+}
+
+.description {
+    
+}
+
+.contact-list {
+    margin-top: 25px;
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.contact-list li {
+    padding-right: 30px;
+    font-size: 30px;
+}
+
+.contact-list li i:hover {
+    opacity: 0.7;
+}
+
+/* .contact-list li:hover {
+    transform: scale(1.02);
+} */
+
+
+.buttons {
+    margin-top: 35px;
+}
+
+.hire-button {
+    padding: 10px 30px;
+    background-color: #2b2b2d;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hire-button:hover {
+    transform: scale(1.02)transform;
+}
+
+.resume-button {
+    padding: 10px 30px;
+    border: 1px solid #4f4f51;
+    border-radius: 50px;
+    color: #4f4f51;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.resume-button:hover {
+    transform: scale(1.02);
+}
+
+.hero-img-container {
+    position: relative;
+    bottom: 100px;
+}
+
+.hero-img {
+    
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-heading {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.front-end-category {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.back-end-category {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.other-category {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.skills ul li {
+    margin-right: 20px;
+    box-shadow: 0 0 10px #333;
+}
+
+.skills ul li:hover {
+    transform: scale(1.02);
+}
+
+.skills ul li figure {
+    padding: 10px;
+}
+
+.skill img {
+    margin-top: 10px;
+}
+
+.skills ul li figcaption {
+    margin-top: 10px;
+    
+}
+
+
+.projects-grid {
+    margin-top: 200px;
+}
+

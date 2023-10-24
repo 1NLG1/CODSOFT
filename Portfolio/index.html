@@ -4,9 +4,233 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script 
+        src="https://kit.fontawesome.com/1aacc9b842.js" 
+        crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./styles.css">
     <title>Portfolio</title>
 </head>
 <body>
-    
+    <header class="header">
+        <figure class="logo-figure">
+            <img class="logo-image" src="./resources/nlg-logo.png" width="70" height="70" alt="logo image">
+            <figcaption class="logo description"><span class="logo-name">Neag<br>Lucian</span><br><span class="logo-profession">Web Developer</span></figcaption>
+        </figure>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-bar element"><a href="#">WORK</a></li>
+                <li class="nav-bar element"><a href="#">ABOUT ME</a></li>
+                <li class="nav-bar element"><a href="#">BLOG</a></li>
+                <li class="nav-bar element"><a href="#">CONTACT</a></li>
+                <li><button class="nav-hire-button">HIRE ME</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="about">
+            <div class="personal-info">
+                <h1>Hello, I'm<br><strong><span class="about-name">Neag Lucian</span></strong></h1>
+                <p class="about-profession">Web Developer</p>
+                <div class="description">
+                    <div class="description-image">
+                        <img src="./resources/me-modified.webp" width="200" height="200" alt="description image">
+                    </div>
+                    <p class="short-description">I am an aspiring web developer</p>
+                </div>
+                <ul class="contact-list">
+                    <li class="contact-element">
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="contact-element">
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="contact-element">
+                        <a href="#">
+                            <i class="fa-brands fa-square-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="contact-element">
+                        <a href="#">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="contact-element">
+                        <a href="#">
+                            <i class="fa-brands fa-square-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <button class="hire-button">HIRE ME</button>
+                    <button class="resume-button">SEE MY RESUME</button>
+                </div>
+            </div>
+            <aside class="hero-img-container">
+                <img class="hero-img" src="./resources/2.png" alt="web development image">
+            </aside>
+        </section>
+        <div class="skills">
+            <h2 class="skills-heading">SKILLS</h2>
+            <p class="front-end-category">FRONT-END</p>
+            <ul class="front-end-skills">
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/html.svg" alt="html logo">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/css.svg" alt="css logo">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/javascript.svg" alt="javascript logo">
+                        <figcaption>JAVASCRIPT</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/react.svg" alt="react logo">
+                        <figcaption>REACT</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/sass.svg" alt="sass logo">
+                        <figcaption>SASS</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <p class="back-end-category">BACK-END</p>
+            <ul class="back-end-skills">
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/mysql.svg" alt="mysql logo">
+                        <figcaption>MYSQL</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/node-js.svg" alt="node-js logo">
+                        <figcaption>NODE-JS</figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <P class="other-category">OTHER</P>
+            <ul class="other-skills">
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/git.svg" alt="git logo">
+                        <figcaption>GIT</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/photoshop.svg" alt="photoshop logo">
+                        <figcaption>PHOTOSHOP</figcaption>
+                    </figure>
+                </li>
+                <li class="skill">
+                    <figure>
+                        <img src="./resources/figma.svg" alt="figma logo">
+                        <figcaption>FIGMA</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <section class="projects-grid">
+            <ul class="projects-list">
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="project image">
+                        <figcaption>
+                            CATEGORY<br><strong>PROJECT TITLE</strong><span>2018</span>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+            <button>LOAD MORE WORK</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="copyright"></div>
+        <div class="additional-links">
+            <ul class="additional-links list">
+                <li><a href="#">github</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

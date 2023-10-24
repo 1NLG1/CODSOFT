@@ -35,6 +35,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-bar li:hover {
+    transform: scale(1.02);
+}
+
 .nav-bar-element.home {
     padding-left: 20px;
 }
@@ -133,6 +137,10 @@ nav {
     display: block;
 }
 
+.hero-inner button:hover {
+    transform: scale(1.02);
+}
+
 .footer {
     position: absolute;
     z-index: 1;
@@ -159,6 +167,18 @@ nav {
     letter-spacing: 0.2rem;
 }
 
+.footer i:hover {
+    opacity: 0.7;
+}
+
+.website:hover {
+    opacity: 0.7;
+}
+
 .phone-number {
     padding-right: 40px;
+}
+
+.phone-number:hover {
+    opacity: 0.7;
 }
