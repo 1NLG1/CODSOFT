@@ -183,7 +183,7 @@ time, mark, audio, video {
 }
 
 .hire-button:hover {
-    transform: scale(1.02)transform;
+    transform: scale(1.02);
 }
 
 .resume-button {
