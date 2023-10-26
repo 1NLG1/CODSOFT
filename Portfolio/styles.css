@@ -267,3 +267,9 @@ time, mark, audio, video {
     margin-top: 200px;
 }
 
+
+/* /////// FOOTER */
+
+.footer li a {
+    font-size: 30px;
+}
