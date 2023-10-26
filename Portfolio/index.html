@@ -23,7 +23,7 @@
                 <li class="nav-bar element"><a href="#">ABOUT ME</a></li>
                 <li class="nav-bar element"><a href="#">BLOG</a></li>
                 <li class="nav-bar element"><a href="#">CONTACT</a></li>
-                <li><button class="nav-hire-button">HIRE ME</button></li>
+                <li><button onclick="location.href='mailto:neaglucian95@yahoo.com'" class="nav-hire-button">HIRE ME</button></li>
             </ul>
         </nav>
     </header>
@@ -66,7 +66,7 @@
                     </li>
                 </ul>
                 <div class="buttons">
-                    <button class="hire-button">HIRE ME</button>
+                    <button onclick="location.href='mailto:neaglucian95@yahoo.com'" class="hire-button">HIRE ME</button>
                     <button type="submit" class="resume-button" onclick="window.open('//we.tl/t-y9642xpRey')">SEE MY RESUME</button>
                 </div>
             </div>
@@ -146,50 +146,52 @@
                 </li>
             </ul>
         </div>
-        <section class="projects-grid">
+        <section class="projects">
+            <h3 class="projects-heading">MY MAIN PROJECTS</h3>
             <ul class="projects-list">
                 <li>
-                    <figure>
-                        <img src="" alt="project image">
-                        <figcaption>
-                            <p>CATEGORY</p><br>
-                            <p><strong>LANDING PAGE</strong><span>2018</span></p>
-                        </figcaption>
-                    </figure>
+                    <a href="#/" target="_blank">
+                        <figure>
+                            <img src="./resources/landing-page-modified.png" width="285px" height="225px" alt="landing-page image">
+                            <figcaption>
+                                <p>HTML/CSS</p><br>
+                                <p><strong>LANDING PAGE</strong><span>2023</span></p>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </li>
                 <li>
-                    <figure>
-                        <img src="" alt="project image">
-                        <figcaption>
-                            <p>CATEGORY</p><br>
-                            <p><strong>REACT CALCULATOR</strong><span>2018</span></p>
-                        </figcaption>
-                    </figure>
+                    <a href="https://1nlg1.github.io/fcc_react_calculator/" target="_blank">
+                        <figure>
+                            <img src="./resources/react-calculator.png" width="285px" height="225px" alt="react-calculator image">
+                            <figcaption>
+                                <p>REACT.JS</p><br>
+                                <p><strong>REACT CALCULATOR</strong><span>2023</span></p>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </li>
                 <li>
-                    <figure>
-                        <img src="" alt="project image">
-                        <figcaption>
-                            <p>CATEGORY</p><br>
-                            <p><strong>FRONTSTORE</strong><span>2018</span></p>
-                        </figcaption>
-                    </figure>
+                    <a href="https://www.youtube.com/watch?v=h8IApWPKiBU" target="_blank">
+                        <figure>
+                            <img src="./resources/online-store.png" width="285px" height="225px" alt="online-store image">
+                            <figcaption>
+                                <p>REACT.JS/APOLLO GRAPHQL</p><br>
+                                <p><strong>FRONTSTORE</strong><span>2022</span></p>
+                            </figcaption>
+                        </figure>
+                    </a>
                 </li>
             </ul>
-            <button>LOAD MORE WORK</button>
         </section>
     </main>
     <footer class="footer">
-        <div class="copyright"></div>
-        <div class="additional-links">
-            <ul class="additional-links list">
-                <li><p>Copyright ©2023 CODSOFT. All Rights Reserved Designed By Team CODSOFT</p></li>
-                <li>
-                    <a href="https://www.github.com/1NLG1" target="_blank">
-                        <i class="fa-brands fa-github" style="color: #171515;"></i>
-                    </a></li>
-            </ul>
-        </div>
+                <p class="copyright">Copyright ©2023 NLG. All Rights Reserved Designed By NLG</p>
+                <p style="display: inline-block; font-size: 20px; letter-spacing: 1px; float: left;">Check my github account: </p>
+                <a class="github" href="https://www.github.com/1NLG1" target="_blank">
+                    <i class="fa-brands fa-github" style="color: #171515;"></i>
+                </a>
+                <a class="phone" href="tel:+40755457738">Phone number: +40755457738</a>
     </footer>
 </body>
 </html>
