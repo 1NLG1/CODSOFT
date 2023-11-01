@@ -1,0 +1,32 @@
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(6, 60px);
+    gap: 1px 1px;
+}
+
+#display {
+    font-size: 24px;
+    height: 100%;
+    background-color: #333;
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+#clear {
+    grid-column: span 2;
+}
+
+#zero {
+    grid-column: span 2;
+}
+
+#equal {
+    grid-row: span 2;
+}
