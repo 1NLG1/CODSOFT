@@ -1,6 +1,5 @@
 let expression = document.querySelector("#expression");
 let currentOperand = document.querySelector("#currentOperand");
-// expression.innerHTML = 1;
 
 const isOperator = (symbol) => {
     return /[*/+-]/.test(symbol);
@@ -16,11 +15,9 @@ const buttonClick = (symbol) => {
                 currentOperand.innerHTML = symbol;
             }
             if (expression.innerHTML.includes("=")) {
-                const result = expression.innerHTML.match(/=\s-?\d*\.?\d*$/g);
-                console.log(expression.innerHTML.match(/=\s-?\d*\.?\d*$/g));
-                const lastNumber = result[0].split(/=/);
-                const answer = lastNumber[lastNumber.length - 1].trim();
-                expression.innerHTML = answer + ' ' + symbol + ' ';
+                let answer = expression.innerHTML.split("=").pop().trim();
+                answer = answer.match(/-?\d*\.?\d*/g).shift();
+                expression.innerHTML = answer + symbol;
                 currentOperand.innerHTML = symbol;
             }
 
@@ -38,12 +35,9 @@ const buttonClick = (symbol) => {
                 currentOperand.innerHTML = symbol;
             }
             if (expression.innerHTML.includes("=")) {
-                const answer = expression.innerHTML.match(/=\s-?\d*\.?\d*$/g);
-                console.log(answer);
-                const answerNumber = answer[0].split(/=/);
-                console.log(answerNumber);
-                answer = answerNumber[answerNumber.length - 1].trim();
-                expression.innerHTML = answer + " " + symbol + " ";
+                let answer = expression.innerHTML.split("=").pop().trim();
+                answer = answer.match(/-?\d*\.?\d*/g).shift();
+                expression.innerHTML = answer + symbol;
                 currentOperand.innerHTML = symbol;
             }
         }
@@ -52,7 +46,6 @@ const buttonClick = (symbol) => {
         currentOperand.innerHTML = 0;
     } else if (symbol === "=") {
         calculate();
-        console.log(expression.innerHTML);
     } else if (symbol === "0") {
         // get the last number
          const lastNumber = expression.innerHTML.split(/[-+/*]/g).pop().trim();
